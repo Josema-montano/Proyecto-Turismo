@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:100;
+    vertical-align: baseline;
+   
+}
+body{
+    background: url(E:/ProyectoTurismo/fondo.jpg) no-repeat ;
+
+
+    background-size: 100%;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.head{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:127px;
+    background-color: #a1a1a177;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: 39px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+    height: 600px;
+    background: url(C:/Tutorial-final/fondo.jpg) no-repeat center;
+    background-size: cover;
+}
+.bed{
+    height: 50px;
+    width: 50px;
+}
+.map{
+    height: 60px;
+    width: 60px;
+}
+.menu{
+    display: flex;
+    margin-right: 10px;
+}
+.texto{
+    margin-left: 30px;
+}
+.texto a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.menu a {
+    display:block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.menu a:hover{
+    background: #3f3f3f;
+}
+.inicio_text{
+    margin-top: 350px;
+margin-left: -350px;
+font-size: 80px ;
+color: #fff;
+}
+.btn{
+    display: inline-block;
+    margin-top:15px ;
+    padding: 10px 40px;
+    border: 2px solid #c51717;
+    text-decoration: none;
+    color: #fff;
+    background: #c51717;
+}
+.btn-home{
+    display: flex;
+}
+.btn:hover{
+    background: none;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+
+}
+.btn-home a{
+    margin: 0 10px;
+    border-radius :20px;;
+}
+.descr_text{
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 80px;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
